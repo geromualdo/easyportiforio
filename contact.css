@@ -3,7 +3,7 @@ body{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-img {
+header img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -36,4 +36,25 @@ h2{
 }
 nav a:hover{
     color: rgb(95, 90, 99);
+}
+p{
+    text-align:justify;
+}
+footer img{
+    width: 50px;
+    height: 50px;
+}
+footer{
+    display:flex;
+    justify-content: center;
+}
+footer a{
+    margin: 10px;
+    text-align: center;
+}
+footer p{
+    margin-top: 2px;
+}
+footer a:hover{
+    color: blueviolet;
 }
