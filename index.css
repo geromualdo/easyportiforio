@@ -62,3 +62,13 @@ footer p{
 footer a:hover{
     color:blueviolet
 }
+::-webkit-scrollbar{
+    width: 20px;
+}
+::-webkit-scrollbar-track{
+    background-color: blueviolet;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(130, 19, 214);
+    border-radius: 10px;
+}
